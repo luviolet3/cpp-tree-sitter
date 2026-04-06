@@ -85,7 +85,7 @@ struct Language {
 
   [[nodiscard]] Version
   getVersion() const {
-    return ts_language_version(impl);
+    return ts_language_abi_version(impl);
   }
 
   TSLanguage const* impl;

@@ -17,7 +17,7 @@ include(cmake/CPM.cmake)
 CPMAddPackage(
   NAME tree-sitter
   GIT_REPOSITORY https://github.com/tree-sitter/tree-sitter.git
-  VERSION 0.22.6
+  VERSION 0.26.8
   DOWNLOAD_ONLY YES
 )
 
